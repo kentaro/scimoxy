@@ -3,10 +3,6 @@ package scimoxy
 type Server struct {
 }
 
-func newServer() *Server {
+func NewServer() *Server {
 	return &Server{}
-}
-
-func (s *Server) serviceHandlerFor(path string) ServiceHandler {
-	return newSlackHandler()
 }

@@ -3,7 +3,7 @@ package scimoxy
 type SlackHandler struct {
 }
 
-func newSlackHandler() *SlackHandler {
+func NewSlackHandler() *SlackHandler {
 	return &SlackHandler{}
 }
 
